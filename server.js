@@ -37,3 +37,6 @@ app.get("/", (req, res) => {
 app.listen(PORT, () => {
   log("express started on " + PORT);
 });
+
+
+// MONGO_URI = "mongodb://localhost:27017/fruits"
